@@ -103,9 +103,3 @@ for (String jobName : jobNames) {
 Spring Security cũng vậy với “quyền”.
 
 ---
-
-Nếu bạn muốn, mình có thể vẽ **1 sơ đồ UML hoặc flow** thể hiện rõ:
-
-> `User.roles → SimpleGrantedAuthority → SecurityContext`
-> để bạn nhìn ra toàn bộ “luồng quyền” trong Security.
-> Bạn có muốn mình vẽ không?
